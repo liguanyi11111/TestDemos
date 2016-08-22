@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <Button
+        android:id="@+id/test"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="测试"
+        android:layout_gravity="bottom"
+        android:textSize="18sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.testdemo.viewtest.ExpandableView
+            android:id="@+id/icon_array_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#0000ff"
+            />
+    </LinearLayout>
+</FrameLayout>
